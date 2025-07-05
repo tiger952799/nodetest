@@ -7,4 +7,14 @@ export class AppController {
   getHello(): string {
     return "";
   }
+
+  @Get()
+  getHello1(): string {
+    return "";
+  }
+
+  @Get()
+  getHello2(): string {
+    return "";
+  }
 }
