@@ -15,6 +15,7 @@ export class AppController {
 
   @Get()
   getHello2(): string {
+    const age = 8;
     return "";
   }
 }
