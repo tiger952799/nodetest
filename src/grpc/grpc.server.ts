@@ -14,7 +14,7 @@ export class AppController {
   }
 
   @Get()
-  getHello2(): string {
-    return "";
+  getHello3(): string {
+    return "ddd";
   }
 }
