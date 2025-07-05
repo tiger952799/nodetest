@@ -14,8 +14,8 @@ export class AppController {
   }
 
   @Get()
-  getHello3(): string {
+  getHello4(): string {
     const age = 8;
-    return "ddd";
+    return "test";
   }
 }
